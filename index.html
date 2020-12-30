@@ -12,30 +12,30 @@
             <div class="radio-buttons">
 
                 <div class="values">
-                    <input type="radio" id="USD" value="USD" name="convert">
+                    <input type="radio" id="USD" value="USD" name="convert" checked>
                     <label for="USD">USD</label>
                     <input type="radio" id="EUR" value="EUR" name="convert">
                     <label for="EUR">EUR</label>
                 </div>
 
                 <div class="revert">
-                    <input type="radio" id="revert" value="revert" name="revert">
+                    <input type="checkbox" id="revert" value="1" name="revert">
                     <label for="revert">revert currency</label>
                 </div>
             </div>
 
             <div class="input-fields">
                 <div class="first-item item">
-                    <input type="text" class="item" id="input-item1">
-                    <span class="input-item1">Доллар США</span>
+                    <input type="text" class="item" id="input-item-1">
+                    <span class="input-item-1">USD</span>
                 </div>
                 <div class="second-item item">
-                    <input type="text" class="item" id="input-item2" disabled>
-                    <span class="input-item2">Российский рубль</span>                
+                    <input type="text" class="item" id="input-item-2" disabled>
+                    <span class="input-item-2">RUB</span>                
                 </div>
             </div>
 
-            <button class="submit-form">Конвертировать</button>
+            <button type="submit" class="submit-form">Конвертировать</button>
         </form>
     </div>
 <script src="./script/script.js"></script>
