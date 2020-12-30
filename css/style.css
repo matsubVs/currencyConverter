@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+}
+
+.form {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 100px;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 10));
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.input-fields{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.input-fields .first-item{
+    margin-right: 20px;
+}
+
+.item {
+    font-size: 14px;
+}
+
+.submit-form {
+    min-width: 150px;
+    height: 30px;
+}
